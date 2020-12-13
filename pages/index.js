@@ -4,7 +4,12 @@ import Mobile from "../componnent/mobile";
 import Cards from "../componnent/cards";
 const Home = () => {
   return (
-    <>
+    <html lang="en">
+        <head>
+        <meta name="Description" content="sky-blog"/>
+      <title>20-week training schedule for your first marathon</title>
+    
+    </head>
       <Labtop />
       <Mobile />
       <section className="home-cover">
@@ -33,7 +38,7 @@ const Home = () => {
         </div>
       </section>
       <Cards />
-    </>
+      </html>
   );
 };
 export default Home;
